@@ -1,0 +1,15 @@
+.button{
+    background:var(--blue-1);
+    border-radius:0.5rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.75rem;
+    font-family: Noto Sans;
+    font-weight: 500;
+    letter-spacing: -0.02625rem;
+    width: 6.3125rem;
+    height: 1.999rem;
+    flex-shrink: 0;
+    border: 1px solid #FAFAFB;
+
+}

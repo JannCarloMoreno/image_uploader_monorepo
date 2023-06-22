@@ -1,0 +1,16 @@
+.paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.paragraph--gray-2{
+    color: var(--gray-2)
+}
+
+.paragraph--gray-3{
+    color: var(--gray-3)
+}
+
+.paragraph--gray-4{
+    color: var(--gray-4)
+}

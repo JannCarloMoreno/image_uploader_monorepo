@@ -6,13 +6,12 @@
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
 	"mounts": [
     "source=${localEnv:HOME}/Documents/Programming/Challenges/imageUploader,target=/workspace/imageUploader,type=bind,consistency=cached"
-]
+	]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",
