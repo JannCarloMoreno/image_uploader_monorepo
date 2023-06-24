@@ -1,0 +1,28 @@
+.ImageDragZone{
+    border-radius: 12px;
+    border: 1px dashed #97BEF4;
+    background: #F6F8FB;
+    width: 21.125rem;
+    height: 13.68144rem;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 12px;
+    background: #FFF;
+}
+.imageDragZone--p{
+    color: var(--gray-4, #BDBDBD);
+    font-size: 0.75rem;
+    font-family: Poppins;
+    font-weight: 500;
+    letter-spacing: -0.02625rem;
+}
+
+.ImageDragZone--img{
+    width: 7.13319rem;
+    height: 5.51506rem;
+    flex-shrink: 0;
+}

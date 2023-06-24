@@ -1,4 +1,4 @@
-.main {
+.App {
   width: 90rem;
   height: 67.5rem;
   margin: 0 auto;
@@ -7,4 +7,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.App--footer{
+  color: #A9A9A9;
+  text-align: center;
+  font-size: 0.875rem;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
 }

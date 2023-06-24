@@ -1,13 +1,15 @@
 import './App.css'
-import Button from './components/atoms/button'
-import Paragraph from './components/atoms/paragraph'
+import { ImageUploader, ImageLoader } from './components/templates'
 
 function App() {
 
   return (
-    <main className='main'>
-      <Paragraph text='Drag & Drop your image here' className='paragraph paragraph--gray-2'/>
-      <Button text='Choose a file' className='button'/>
+    <main className='App'>
+        {/* <ImageUploader titleText='Upload your image' subTitleText='File should be Jpeg, Png...' dragAndDropText='Drag & Drop your image Here' imgSrc='image.svg' imgAltText='ilustrative image icon' buttonText='Choose a file'/> */}
+        <ImageLoader text='Uploading...'/>
+        <footer  className='App--footer'>
+          <p>Made by <b>janncarx</b> - devChallenges.io</p>
+        </footer>
     </main>
   )
 }
