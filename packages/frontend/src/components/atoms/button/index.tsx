@@ -2,13 +2,12 @@ import './styles.css'
 import React from 'react'
 
 interface ButtonProps{
-    text: string,
-    className: string
+    text: string
 }
 
-const Button:React.FC<ButtonProps> = ({text, className}) => {
+const Button:React.FC<ButtonProps> = ({text}) => {
     return (
-        <button className={className}>{text}</button>
+        <button className='button'>{text}</button>
     )
 }
 

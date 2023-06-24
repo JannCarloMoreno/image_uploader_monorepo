@@ -8,7 +8,7 @@ function App() {
         {/* <ImageUploader titleText='Upload your image' subTitleText='File should be Jpeg, Png...' dragAndDropText='Drag & Drop your image Here' imgSrc='image.svg' imgAltText='ilustrative image icon' buttonText='Choose a file'/> */}
         <ImageLoader text='Uploading...'/>
         <footer  className='App--footer'>
-          <p>Made by <b>janncarx</b> - devChallenges.io</p>
+          <p>created by <b>janncarx</b> - devChallenges.io</p>
         </footer>
     </main>
   )

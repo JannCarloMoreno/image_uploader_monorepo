@@ -19,7 +19,7 @@ const ImageUploader:React.FC<ImageUploaaderProps> = ({titleText, subTitleText, i
             <h2 className='imageUploader--h2'>{subTitleText} </h2>
             <ImageDragZone text={dragAndDropText} imgSrc={imgSrc}  altText={imgAltText}/>
             <span className='imageUploader--span'>Or</span>
-            <Button text={buttonText} className='button'/>
+            <Button text={buttonText}/>
         </section>
     )
 }

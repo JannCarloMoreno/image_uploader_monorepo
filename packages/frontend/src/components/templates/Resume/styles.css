@@ -1,0 +1,20 @@
+.resume{
+    width: 25.02244rem;
+    height: 28.43475rem;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume__figure-icon{
+    width: 2.625rem;
+    height: 2.625rem;
+    flex-shrink: 0;
+    background-color: #219653 ;
+    color: #fff;
+    border-radius: 50%;
+}
