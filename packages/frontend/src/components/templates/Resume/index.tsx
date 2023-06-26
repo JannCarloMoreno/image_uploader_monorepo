@@ -15,11 +15,11 @@ const Resume:React.FC<ResumeProps> = ({iconSrc, text, imgSrc,altText= '', button
     return (
         <section className='resume'>
             <figure className='resume__figure-icon'>
-                <img src={iconSrc} alt='success icon' />
+                <img className='resume__figure-icon__img' src={iconSrc} alt='success icon' />
             </figure>
             <h1 className='resume__h1'>{text}</h1>
             <figure className='resume__figure-image'>
-                <img src={imgSrc} alt={altText}/>
+                <img className='resume__figure-image__img' src={imgSrc} alt={altText}/>
             </figure>
             <div className='resume__div'>
                 <p className='resume__div__p'>{url}</p>
